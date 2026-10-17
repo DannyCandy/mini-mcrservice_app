@@ -14,6 +14,6 @@ spec:
         spec:
             containers:
                 - name: notification-service
-                  image: victoriousvipin/nms_notification-service:latest
+                  image: dannycandy/nms_notification-service:latest
                   ports:
                       - containerPort: 3003
